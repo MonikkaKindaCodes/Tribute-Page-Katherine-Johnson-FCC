@@ -1,0 +1,44 @@
+html{
+    background-color:#bbbcbb;
+    color:#ffffff;
+    font-family: 'Noto Serif', serif;
+}
+img{
+    border-radius:50%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #4b4a46;
+}
+#title{
+    display: inline-block;
+    background-color: #000000;
+    padding: 55px 65px 15px 10px;
+    font-size: 35px;
+    border-radius: 20px;
+    color: #808080;
+    float: left;
+}
+#img-caption{
+    display: inline-block;
+    background-color: #000000;
+    padding: 55px 65px 15px 10px;
+    font-size: 35px;
+    border-radius: 20px;
+    color: #808080;
+    float: left;
+}
+#tribute-info{
+    display: inline-block;
+    background-color: #303032;
+    font-size: 20px;
+    padding: 10px 20px 20px 20px;
+    border-radius: 15px;
+}
+.startings{
+    display: inline-block;
+    background-color: #000000;
+    padding: 55px 65px 15px 10px;
+    font-size: 35px;
+    border-radius: 20px;
+    color: #808080;
+}
