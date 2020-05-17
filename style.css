@@ -13,6 +13,9 @@ img{
 li{
     margin: 0.5em;
 }
+ul{
+    list-style: none; 
+}
 #main{
     text-align: center;
 }
@@ -40,6 +43,7 @@ header{
     background-color: #303032;
     font-size: 20px;
     opacity: 0.8;
+    border-radius: 25px;
 }
 .startings{
     display: inline-block;
@@ -54,4 +58,10 @@ header{
 }
 .computer:active{
     color: #ffffff;
+}
+footer{
+    background-color: #303032;
+    font-size: 20px; 
+    opacity: 0.8;
+    text-align: center;
 }
