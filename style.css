@@ -1,5 +1,5 @@
 html{
-    background-color:#bbbcbb;
+    background: url("img/nick-van-den-berg-Rnya8pfKSfM-unsplash.jpg");
     color:#ffffff;
     font-family: 'Noto Serif', serif;
 }
@@ -7,38 +7,51 @@ img{
     border-radius:50%;
     border-style: solid;
     border-width: 5px;
+    height: 500px;
     border-color: #4b4a46;
 }
-#title{
+li{
+    margin: 0.5em;
+}
+#main{
+    text-align: center;
+}
+header{
+    background: url("img/nick-van-den-berg-Rnya8pfKSfM-unsplash.jpg");
+    background-color: #000000;
+    font-size: 35px;
+    color: #808080;
+    
+}
+#header{
     display: inline-block;
     background-color: #000000;
-    padding: 55px 65px 15px 10px;
-    font-size: 35px;
-    border-radius: 20px;
-    color: #808080;
-    float: left;
+    padding: 10px 10px 10px 10px; 
+}
+#title #img-caption{
+   display: inline-block;
+   background-color: #000000;
+
 }
 #img-caption{
-    display: inline-block;
-    background-color: #000000;
-    padding: 55px 65px 15px 10px;
-    font-size: 35px;
-    border-radius: 20px;
-    color: #808080;
-    float: left;
+    font-size: 30px;
 }
 #tribute-info{
-    display: inline-block;
     background-color: #303032;
     font-size: 20px;
-    padding: 10px 20px 20px 20px;
-    border-radius: 15px;
+    opacity: 0.8;
 }
 .startings{
     display: inline-block;
     background-color: #000000;
-    padding: 55px 65px 15px 10px;
+    padding: 10px 10px 10px 10px;
     font-size: 35px;
     border-radius: 20px;
     color: #808080;
+}
+.computer:hover{
+    color: #4b4a46
+}
+.computer:active{
+    color: #ffffff;
 }
